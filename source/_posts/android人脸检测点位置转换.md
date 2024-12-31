@@ -1,7 +1,7 @@
 ---
 title: android人脸检测点位置转换
 date: 2024-12-26 17:20:00
-tags: android, 相机
+tags: 相机
 comments: true
 ---
 

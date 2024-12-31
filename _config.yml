@@ -100,7 +100,7 @@ ignore:
 theme: reimu
 # theme: butterfly
 
-avatar: "avatar.webp" # which means source/_data/avatar/avatar.webp
+avatar: "avatar.jpg" # which means source/_data/avatar/avatar.jpg
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

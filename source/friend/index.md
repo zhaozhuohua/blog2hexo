@@ -9,7 +9,7 @@ comments: true
 - 地址： https://zhaozhuohua.com
 - 备用地址：https://space.bilibili.com/44549262/
 
-## 申请方法
+<!-- ## 申请方法
 - 添加本站后，在本页留言，格式如下
 
 ~~~yml
@@ -19,7 +19,7 @@ comments: true
   desc: #简短描述
   image: #一张图片
 ```
-~~~
+~~~ -->
 
-## 小伙伴们
+## 我自己
 {% friendsLink friend/_data.yml %}
