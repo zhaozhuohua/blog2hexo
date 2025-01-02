@@ -97,8 +97,9 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: reimu
+# theme: reimu
 # theme: butterfly
+theme: reimu1
 
 avatar: "avatar.jpg" # which means source/_data/avatar/avatar.jpg
 
