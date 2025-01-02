@@ -18,7 +18,7 @@ nav:
 
 menu:
   主页: / || fas fa-home
-  友链: /link/
+  关于: /about/
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
