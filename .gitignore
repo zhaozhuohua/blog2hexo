@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
-theme/reimu1
+themes/reimu1
+themes/butterfly

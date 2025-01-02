@@ -98,8 +98,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 # theme: landscape
 # theme: reimu
-# theme: butterfly
-theme: reimu1
+theme: butterfly
+# theme: reimu1
+baidu_analytics: 7da638f95616e3fecc8ad558fd62c45e
 
 avatar: "avatar.jpg" # which means source/_data/avatar/avatar.jpg
 
