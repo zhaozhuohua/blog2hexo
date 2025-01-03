@@ -2,7 +2,8 @@
 title: android人脸检测点位置转换
 date: 2024-12-26 17:20:00
 tags: 相机
-comments: true
+cover: https://s2.loli.net/2025/01/02/EGYUjJZXvtOyKlm.webp
+categories: android相机
 ---
 
 <meta name="referrer" content="no-referrer"/>

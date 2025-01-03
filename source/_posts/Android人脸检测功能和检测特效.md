@@ -3,6 +3,7 @@ title: Android人脸检测功能和检测特效
 date: 2024-12-31 15:45:29
 tags: 相机
 cover: https://s2.loli.net/2024/12/31/puG79ZqfvHj64sz.jpg
+categories: android相机
 ---
 
 <meta name="referrer" content="no-referrer"/>

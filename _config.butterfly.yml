@@ -65,10 +65,9 @@ disable_top_img: false
 # If the banner of page not setting, it will show the default_top_img
 default_top_img: https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
 
-top_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
-
 # The banner image of index page
-index_img: https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
+# index_img: https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
+# index_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
 # The banner image of archive page
 archive_img: https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
@@ -300,7 +299,7 @@ aside:
       link: https://github.com/zhaozhuohua
   card_announcement:
     enable: true
-    content: 桃之夭夭，灼灼其华
+    content: 这是广播。不要回答！不要回答！不要回答！
   card_recent_post:
     enable: true
     # If set 0 will show all
