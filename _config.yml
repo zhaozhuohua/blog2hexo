@@ -29,6 +29,14 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 # 跳过渲染
+# 跳过单个文件
+# - "xxxx.html"
+# 跳过子文件夹
+# - "文件夹名/子文件夹名/*"
+# 跳过文件夹下所有文件
+# - "文件夹名/*"
+# 跳过文件夹下所有子文件夹和文件
+# - 'html/**'
 skip_render:
   - 'html/**'
 
