@@ -103,14 +103,10 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover:
+  default_cover: https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
     # 当配置多张图片时，会随机选择一张作为 cover. 此时写法为
-    - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-    - http://pic1.win4000.com/wallpaper/2020-07-08/5f056636a92cf_270_185.jpg
-    - http://pic1.win4000.com/wallpaper/2020-08-17/5f39f8e53b026_270_185.png
-    - http://pic1.win4000.com/wallpaper/2020-07-23/5f19587122afa_270_185.jpg
-    - http://pic1.win4000.com/wallpaper/2020-07-22/5f17b43d50c03_270_185.png
-    - http://pic1.win4000.com/wallpaper/2020-08-14/5f363d07a24be_270_185.jpg
+    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    # - https://s2.loli.net/2025/01/02/ftJKu8Gp6nWogc9.webp
 
 # Replace Broken Images
 error_img:
