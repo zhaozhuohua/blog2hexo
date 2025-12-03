@@ -26,7 +26,7 @@ categories: android
 ```
 param(
     [Parameter(Mandatory = $true)]
-    [string]$ApkPath,                 # 待签名的APK（可为加固后APK）
+    [string]$ApkPath,                 # 待签名的APK路径
 
     [Parameter(Mandatory = $true)]
     [string]$KeystorePath,            # keystore 文件路径(.jks/.keystore)
@@ -193,6 +193,33 @@ Write-Host "  $signedApk" -ForegroundColor Green
 只启用 v2 签名（极少数场景需要）：
 > pwsh .\sign-apk.ps1 -ApkPath D:\app\reinforced.apk -KeystorePath D:\keys\release.jks -Alias myalias -KeystorePass 你的Keystore密码 -Schemes v2
 
+
+**以上方法都需要每次输入Keystore密码和alias，也可以提前设置在脚本中配置好这些信息**
+修改脚本最上面的param配置信息
+```
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$ApkPath,                 # 待签名的APK
+
+    [Parameter(Mandatory = $false)]
+    [string]$KeystorePath = '签名文件路径',            # keystore 文件路径(.jks/.keystore)
+
+    [Parameter(Mandatory = $false)]
+    [string]$Alias = 'key别名',                   # key别名
+
+    [Parameter(Mandatory = $false)]
+    [string]$KeystorePass = '密码',            # keystore 密码
+
+    [string]$KeyPass = '密码',                 # key 密码（如不填默认与 keystore 密码相同）
+
+    [string]$BuildToolsDir,           # 指定 Android build-tools 目录（可选，如 C:\Android\sdk\build-tools\35.0.0）
+    [string]$OutDir = '输出目录',                  # 输出目录（可选，默认与 APK 同目录）
+)
+```
+这样就可以简化运行脚本为:
+> pwsh 脚本路径(例如：.\cursor-sign1.ps1) -ApkPath 加固后的apk路径（例如：D:\work\xxx.apk）
+
+
 前置条件
 1. 已安装 Android SDK，并在 build-tools 中包含 apksigner.bat 和 zipalign.exe。
 2. 或通过 -BuildToolsDir 明确指定 build-tools 路径。
@@ -203,7 +230,3 @@ Write-Host "  $signedApk" -ForegroundColor Green
 
 ## 脚本验证结论
 进行一次简单的配置sdk、签名路径，之后每次加固后进行签名只用在PowerShell中执行脚本就可生成对应的签名后的apk文件。
-
-## 备注
-运行脚本的信息：
-> pwsh 脚本路径(例如：.\cursor-sign1.ps1) -ApkPath 加固后的apk路径（例如：D:\work\xxx.apk）
